@@ -415,10 +415,27 @@ Note:
 @snapend
 
 
+@snap[north-east span-80  fragment]
+<br>
+<br>
+<p style="line-height:60%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
+<br>&nbsp;&nbsp;
+@color[yellow](&larr;&horbar;&horbar;&horbar;&horbar; )<br>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](&larr;&horbar;&horbar;&horbar;&horbar; )<br>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></p>
+
+@snapend
+
+
 @snap[south span-100 ]
-<p style="line-height:30%" align="left" ><span style="font-size:0.45em;" >
+<p style="line-height:30%" align="left" ><span style="font-size:0.5em;" >
 &nbsp; &ast;&ast;Nasm compiler and &ast;&ast;Openssl may need to be downloaded per the Readme.txt file in each directory
 </span></p>
+<br>
 @snapend
 
 Note:

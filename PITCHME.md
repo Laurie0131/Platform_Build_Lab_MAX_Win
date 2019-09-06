@@ -448,16 +448,17 @@ Note:
 ---
 @title[Steps to Build & Install Firmware]
 <p align="right"><span class="gold" >@size[1.1em](<b> Steps to Build & Install Firmware </b>)</span><span style="font-size:0.75em;" >  </span></p>
-
+<br>
 <ul style="list-style-type:none; line-height:0.95;">
   <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10102;</font>)&nbsp; At VS prompt CD to <font face="Consolas">C:/FW/MaxWS</font>  </span></li>
   <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10103;</font>)&nbsp; Set up local build environment </span></li>
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke "<font face="Consolas">Edksetup Rebuild </font>" </span></li>
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10105;</font>)&nbsp; Invoke the build process</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke <font face="Consolas">"Edksetup Rebuild" (build BaseTools)</font> </span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10105;</font>)&nbsp; Invoke the build process (DEBUG & RELEASE) </span></li>
   <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10106;</font>)&nbsp; Locate build output (.cap files for BIOS image)</span></li>
   <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10107;</font>)&nbsp; Flash capsule image onto the platform</span></li>
   <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10108;</font>)&nbsp; Reset & boot new firmware to UEFI Shell</span></li>
 </ul>
+<br>
 <br>
 <br>
 <span style="font-size:0.9em"><font color="yellow"><i><b>Next slides will follow the above steps</b></i></font></span>
@@ -469,12 +470,34 @@ Slide says it all
  
 ---?image=/assets/images/slides/Slide20.JPG
 @title[Open a VS Command Prompt]
-### <p align="right"><span class="gold" >Open a VS Command Prompt </span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Open a VS Command Prompt</b>)</span></p>
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Emulator_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>
-<br>@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp;&nbsp;Open a Visual Studio Command Prompt<span></p>
+<br>@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp;&nbsp;Open a Visual Studio Command Prompt & <br>
+<span style="background-color: #000000"><font face="Consolas">&nbsp;&gt; cd C:/FW/MaxWS &nbsp;&nbsp;&nbsp;</font> <span></span></p>
 
 
 Note:
+
+
+---
+@title[Setup the Build Environment]
+<p align="right"><span class="gold" >@size[1.1em](<b>Setup the Build Environment</b>)</span></p>
+
+
+
+
+
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+<br>@size[1.125em](<font color="yellow"> &#10103;</font>)<br>
+&nbsp;&nbsp;Run Setenv.bat or type the following: (assumes Python3.7.2 installed) <br>
+<span style="background-color: #000000"><font face="Consolas">&nbsp;&gt; Set WORKSPACE=%CD%&nbsp;&nbsp;&nbsp;</font> <span>
+</span></p>
+
+
+
+Note:
+
+
 
 ---
 @title[Platform Build Scripts]

@@ -447,15 +447,16 @@ Note:
 
 ---
 @title[Steps to Build & Install Firmware]
-<br>
-### <p align="center"><span class="gold" >Steps to Build & Install Firmware</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b> Steps to Build & Install Firmware </b>)</span><span style="font-size:0.75em;" >  </span></p>
+
 <ul style="list-style-type:none; line-height:0.95;">
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10102;</font>)&nbsp; Open VS Command prompt </span></li>
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10103;</font>)&nbsp; Cd to  project directory :    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.6em"><font face="Consolas">C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg</font> </span></li>
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke the build process</span></li>
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10105;</font>)&nbsp; Locate build output (.BIN file for BIOS image)</span></li>
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10106;</font>)&nbsp; Flash binary image onto the platform</span></li>
-  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10107;</font>)&nbsp; Reset and verify new firmware</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10102;</font>)&nbsp; At VS prompt CD to <font face="Consolas">C:/FW/MaxWS</font>  </span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10103;</font>)&nbsp; Set up local build environment </span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke "<font face="Consolas">Edksetup Rebuild </font>" </span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10105;</font>)&nbsp; Invoke the build process</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10106;</font>)&nbsp; Locate build output (.cap files for BIOS image)</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10107;</font>)&nbsp; Flash capsule image onto the platform</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10108;</font>)&nbsp; Reset & boot new firmware to UEFI Shell</span></li>
 </ul>
 <br>
 <br>

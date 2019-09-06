@@ -415,7 +415,7 @@ Note:
 @snapend
 
 
-@snap[north-east span-90  fragment]
+@snap[north-east span-88  fragment]
 <br>
 <br>
 <p style="line-height:60%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
@@ -425,7 +425,7 @@ Note:
 <br>&nbsp;&nbsp;
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar; )<br>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar; )<br>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></p>
 
 @snapend

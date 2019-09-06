@@ -287,9 +287,9 @@ Note:
 <br>
 <br>
 <br>
-<ul style="list-style-type:disc; line-height:0.7;">
- <li><span style="font-size:0.7em;" > Open Source <a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax">Max Development Wiki</a> </span> </li>
- <li><span style="font-size:0.7em;" > How to Download  & Build: <a href="https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Vlv2TbltDevicePkg/Readme.md">Readme.md</a> </span> </li>
+<ul style="list-style-type:disc; line-height:0.85;">
+ <li><span style="font-size:0.8em;" > Open Source <a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax">Max Development Wiki</a> </span> </li>
+ <li><span style="font-size:0.8em;" > How to Download  & Build: <a href="https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Vlv2TbltDevicePkg/Readme.md">Readme.md</a> </span> </li>
 
 </ul>
 @snapend
@@ -325,7 +325,7 @@ Note:
 <span style="font-size:0.75em;" >  </span></p>
 
 <p style="line-height:70%"><span style="font-size:0.8em">
-Directory `C:\PlatformBuildLab2_FW\FW\PlatformBuildLab` from Download or zip
+Directory <font face="Consolas">C:\PlatformBuildLab2_FW\FW\PlatformBuildLab</font> from Download or zip
 </span></p>
 
 @snap[north-west span-60 ]
@@ -336,7 +336,7 @@ Directory `C:\PlatformBuildLab2_FW\FW\PlatformBuildLab` from Download or zip
 <br>
 <br>
 <p style="line-height:70%"><span style="font-size:0.8em">
-@size[1.10em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy `\asl` Folder to `C:\`<br><br><br>
+@size[1.10em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy <font face="Consolas">\asl</font> Folder to <font face="Consolas">C:\</font><br><br><br>
 </span></p>
 
 @snapend
@@ -386,6 +386,43 @@ Note:
 - From the FW/PlatformBuildLab folder, copy and paste folder “FW/Max” to ~src
  
 
+
+
+---
+@title[Platform Source Directory Structure]
+<p align="right"><span class="gold" >@size[1.1em](<b>Platform Source Directory Structure   </b>)</span>
+<span style="font-size:0.75em;" >  </span></p>
+
+@snap[north-west span-100 ]
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.57em; font-family:Consolas;" >
+./MaxWs/ <br>&nbsp;&nbsp;
+	edk2/<br>&nbsp;&nbsp;&nbsp;&nbsp;
+       <font face="Arial">(EDK II common packages)</font><br>&nbsp;&nbsp;&nbsp;&nbsp;
+		BaseTools/<br>&nbsp;&nbsp;
+	edk2-platforms/<br>&nbsp;&nbsp;&nbsp;&nbsp;
+       Platform/Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		   Vlv2TbltDevicePkg /<br>&nbsp;&nbsp;&nbsp;&nbsp;
+ 	   silicon/Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Vlv2DeviceRefCodePkg/<br>&nbsp;&nbsp;
+	edk2-non-osi/<br>&nbsp;&nbsp;
+	nasm/ **<br>&nbsp;&nbsp;
+	openssl/ **<br>&nbsp;&nbsp;
+<br><br><br>&nbsp;
+</span></p>
+
+@snapend
+
+
+@snap[south span-100 ]
+<p style="line-height:60%" align="left" ><span style="font-size:0.57em;" >
+&nbsp; **Nasm compiler and **Openssl may need to be downloaded per the Readme.txt file in each directory
+</span></p>
+@snapend
+
+Note:
+-  Platform Source Directory Structure
+   -  Build from /Vlv2TbltDevicePkg  directory
 
 ---?image=/assets/images/slides/Slide39.JPG
 @title[Platform Source Directory Structure]

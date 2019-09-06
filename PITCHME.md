@@ -435,7 +435,7 @@ Note:
 
 @snap[south span-100 ]
 <p style="line-height:30%" align="left" ><span style="font-size:0.55em;" >
-&nbsp; &ast;&ast;Nasm compiler and &ast;&ast;Openssl may need to be downloaded per the Readme.txt file in each directory
+&ast;&ast;Nasm compiler and &ast;&ast;Openssl may need to be downloaded per the Readme.txt file in each<br>&nbsp;&nbsp; directory
 </span></p>
 <br>
 @snapend
@@ -444,26 +444,18 @@ Note:
 -  Platform Source Directory Structure
    -  Build from /Vlv2TbltDevicePkg  directory
 
----?image=/assets/images/slides/Slide39.JPG
-@title[Platform Source Directory Structure]
-### <p align="right"><span class="gold" >Platform Source Directory Structure </span></p>
-
-
-Note:
--  Platform Source Directory Structure
-   -  Build from /Vlv2TbltDevicePkg  directory
 
 ---
 @title[Steps to Build & Install Firmware]
 <br>
 ### <p align="center"><span class="gold" >Steps to Build & Install Firmware</span></p>
-<ul style="list-style-type:none; line-height:0.9;">
-  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp; Open VS Command prompt </span></li>
-  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10103;</font>)&nbsp; Cd to  project directory :    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.6em">`C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg` </span></li>
-  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke the build process</span></li>
-  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10105;</font>)&nbsp; Locate build output (.BIN file for BIOS image)</span></li>
-  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10106;</font>)&nbsp; Flash binary image onto the platform</span></li>
-  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10107;</font>)&nbsp; Reset and verify new firmware</span></li>
+<ul style="list-style-type:none; line-height:0.95;">
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10102;</font>)&nbsp; Open VS Command prompt </span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10103;</font>)&nbsp; Cd to  project directory :    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.6em"><font face="Consolas">C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg</font> </span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke the build process</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10105;</font>)&nbsp; Locate build output (.BIN file for BIOS image)</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10106;</font>)&nbsp; Flash binary image onto the platform</span></li>
+  <li><span style="font-size:0.8em">@size[1.0125em](<font color="yellow"> &#10107;</font>)&nbsp; Reset and verify new firmware</span></li>
 </ul>
 <br>
 <br>

@@ -285,7 +285,9 @@ Note:
 <br>
 <br>
 <br>
-<ul style="list-style-type:none; line-height:0.7;">
+<br>
+<br>
+<ul style="list-style-type:disc; line-height:0.7;">
  <li><span style="font-size:0.7em;" > Open Source <a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax">Max Development Wiki</a> </span> </li>
  <li><span style="font-size:0.7em;" > How to Download  & Build: <a href="https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Vlv2TbltDevicePkg/Readme.md">Readme.md</a> </span> </li>
 
@@ -311,7 +313,7 @@ $ git clone https://github.com/tianocore-training/PlatformBuildLab2_FW.git
        - asl				                    - Asl Compiler 
        - FTDI-Driver		                    - Serial / USB cable 
        - MaxWS                                  - Minnowboard Max Source 
-	   - TeraTerm			                    - Terminal app
+	   - TeraTerm                               - Terminal app
 ```
 
 Note:
@@ -359,10 +361,10 @@ Copy \asl Folder to C:\
 @snap[north-west span-20 ]
 <br>
 <br>
-<p style="line-height:40%"><span style="font-size:0.8em"><br>@size[1.1em](<font color="#87E2A9"> &#10104;</font>)</span></p>
+<p style="line-height:40%"><span style="font-size:0.8em"><br>@size[1.1em](<font color="#87E2A9"> &#10103;</font>)</span></p>
 @snapend
 
-@snap[north-east span-95 ]
+@snap[north-east span-93 ]
 <br>
 <br>
 <p style="line-height:70%" align="left"><span style="font-size:0.8em">

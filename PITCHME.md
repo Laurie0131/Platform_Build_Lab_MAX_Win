@@ -472,8 +472,8 @@ Slide says it all
 @title[Open a VS Command Prompt]
 <p align="right"><span class="gold" >@size[1.1em](<b>Open a VS Command Prompt</b>)</span></p>
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Emulator_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>
-<br>@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp;&nbsp;Open a Visual Studio Command Prompt & <br>
-<span style="background-color: #000000"><font face="Consolas">&nbsp;&gt; cd C:/FW/MaxWS &nbsp;&nbsp;&nbsp;</font> <span></span></p>
+<br>@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp;&nbsp;Open a Visual Studio Command Prompt & <br><br>
+<span style="background-color: #000000">@size[.7em](<font face="Consolas">&nbsp;&gt; cd C:/FW/MaxWS &nbsp;&nbsp;&nbsp;</font>) <span></span></p>
 
 
 Note:
@@ -489,7 +489,7 @@ Note:
 
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">
 <br>@size[1.125em](<font color="yellow"> &#10103;</font>)<br>
-&nbsp;&nbsp;Run Setenv.bat or type the following: (assumes Python3.7.2 installed) <br>
+&nbsp;&nbsp;Run Setenv.bat or type the following: (assumes Python3.7.2) <br>
 <span style="background-color: #000000"><font face="Consolas">&nbsp;&gt; Set WORKSPACE=%CD%&nbsp;&nbsp;&nbsp;</font> <span>
 </span></p>
 

@@ -395,10 +395,11 @@ Note:
 
 @snap[north-west span-100 ]
 <br>
-<p style="line-height:45%" align="left" ><span style="font-size:0.57em; font-family:Consolas;" >
+<br>
+<p style="line-height:60%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
 ./MaxWs/ <br>&nbsp;&nbsp;
 	edk2/<br>&nbsp;&nbsp;&nbsp;&nbsp;
-       <font face="Arial">(EDK II common packages)</font><br>&nbsp;&nbsp;&nbsp;&nbsp;
+       <font face="Arial">@size[.8em](&lpar;EDK II common packages&rpar;)</font><br>&nbsp;&nbsp;&nbsp;&nbsp;
 		BaseTools/<br>&nbsp;&nbsp;
 	edk2-platforms/<br>&nbsp;&nbsp;&nbsp;&nbsp;
        Platform/Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -406,8 +407,8 @@ Note:
  	   silicon/Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           Vlv2DeviceRefCodePkg/<br>&nbsp;&nbsp;
 	edk2-non-osi/<br>&nbsp;&nbsp;
-	nasm/ **<br>&nbsp;&nbsp;
-	openssl/ **<br>&nbsp;&nbsp;
+	nasm/ &ast;&ast;<br>&nbsp;&nbsp;
+	openssl/ &ast;&ast;<br>&nbsp;&nbsp;
 <br><br><br>&nbsp;
 </span></p>
 
@@ -415,8 +416,8 @@ Note:
 
 
 @snap[south span-100 ]
-<p style="line-height:60%" align="left" ><span style="font-size:0.57em;" >
-&nbsp; **Nasm compiler and **Openssl may need to be downloaded per the Readme.txt file in each directory
+<p style="line-height:30%" align="left" ><span style="font-size:0.45em;" >
+&nbsp; &ast;&ast;Nasm compiler and &ast;&ast;Openssl may need to be downloaded per the Readme.txt file in each directory
 </span></p>
 @snapend
 

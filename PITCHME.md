@@ -396,7 +396,7 @@ Note:
 @snap[north-west span-100 ]
 <br>
 <br>
-<p style="line-height:60%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
+<p style="line-height:65%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
 ./MaxWs/ <br>&nbsp;&nbsp;
 	edk2/<br>&nbsp;&nbsp;&nbsp;&nbsp;
        <font face="Arial">@size[.8em](&lpar;EDK II common packages&rpar;)</font><br>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -418,7 +418,7 @@ Note:
 @snap[north-east span-88  fragment]
 <br>
 <br>
-<p style="line-height:60%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
+<p style="line-height:65%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
 <br>
 @color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;)
 <span style="background-color: #002060">&nbsp;&nbsp;<font face="Arial">Invoke the Build from here </font> &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -434,7 +434,7 @@ Note:
 
 
 @snap[south span-100 ]
-<p style="line-height:30%" align="left" ><span style="font-size:0.5em;" >
+<p style="line-height:30%" align="left" ><span style="font-size:0.55em;" >
 &nbsp; &ast;&ast;Nasm compiler and &ast;&ast;Openssl may need to be downloaded per the Readme.txt file in each directory
 </span></p>
 <br>

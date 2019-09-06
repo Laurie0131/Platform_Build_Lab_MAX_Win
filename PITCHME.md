@@ -420,14 +420,14 @@ Note:
 <br>
 <p style="line-height:60%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
 <br>
-@color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar; )
-<span style="background-color: #99CCFF">&nbsp;&nbsp;Invoke the Build from here  &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+@color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;)
+<span style="background-color: #002060">&nbsp;&nbsp;<font face="Arial">Invoke the Build from here </font> &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>&nbsp;&nbsp;
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar; )
-<span style="background-color: #99CCFF">&nbsp;&nbsp;Platform DSC here  &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar;)
+<span style="background-color: #002060">&nbsp;&nbsp;<font face="Arial">Platform DSC here </font> &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></p>
 
 @snapend

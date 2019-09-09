@@ -530,8 +530,7 @@ Note:
 @title[Invoke Edksetup]
 <p align="right"><span class="gold" >@size[1.1em](<b>Invoke Edksetup</b>)</span></p>
 
-@snap[north-west span-35 ]
-<br>
+@snap[north-west span-38 ]
 <br>
 <p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
 <br>
@@ -543,7 +542,7 @@ Note:
 <br>@size[1.125em](<font color="yellow"> &#10104;</font>)<br><br>
 &nbsp;&nbsp;Invoke<font face="Consolas"> Edksetup</font> form the <font face="Consolas">edk2</font> directory and build <font face="Consolas">BaseTools</font>
 </span></p>
-<p style="line-height:40%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;
+<p style="line-height:40%" align="left" ><span style="font-size:0.47em; font-family:Consolas;" >&nbsp;&nbsp;
 $&gt; cd edk2<br>&nbsp;&nbsp;
 $&gt; edksetup.bat Rebuild
 </span></p>

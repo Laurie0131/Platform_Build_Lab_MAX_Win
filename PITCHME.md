@@ -506,6 +506,7 @@ $&gt; set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-platforms\Silicon\Inte
 $&gt; set EDK_TOOLS_PATH=%WORKSPACE%\edk2\BaseTools<br>&nbsp;&nbsp;
 $&gt; path=%path%;%WORKSPACE%\openssl;%USERPROFILE%\AppData\Local\Programs\Python\Python37-32<br>&nbsp;&nbsp;
 $&gt; set NASM_PREFIX=%WORKSPACE%\nasm\
+<br>
 </span></p> 
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">
 &nbsp;&nbsp;Check if Python okay

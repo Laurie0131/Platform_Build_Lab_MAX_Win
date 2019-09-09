@@ -845,16 +845,16 @@ Note:
 @snap[north-west span-100 ]
 <br>
 <p style="line-height:20%" align="left"><span style="font-size:0.8em">
-<br><br><br>@size[1.125em](<font color="yellow"> &#10107;</font>)
+<br><br><br><br>@size[1.125em](<font color="yellow"> &#10107;</font>)
 </span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.75em">
 Run CapsuleApp.efi utility with MinnowMax. . . cap file<br>
 @size[.7em](&lpar;Note the "TAB" Key will fill out the command line for you &rpar;)
 </span></p>
 <p style="line-height:40%" align="left"><span style="font-size:0.5em; font-family:Consolas;" >
-@color[yellow](FS:\&gt;)CapsuleApp.efi MinnowMax.0.0.0.12.cap 
+&nbsp;&nbsp;@color[yellow](FS0:\&gt;)CapsuleApp.efi MinnowMax.0.0.0.12.cap <br>
 </span></p>
-<p style="line-height:55%" align="left"><span style="font-size:0.65em">
+<p style="line-height:65%" align="left"><span style="font-size:0.65em">
 System will start the Capsule update process<br>
 There will be 2 reboots
 </span></p>
@@ -901,9 +901,9 @@ the monitor will show a progress bar for the capsule update
 Reboot and Verify
 </span></p>
 
-<p style="line-height:60%" align="left"><span style="font-size:0.7em">
+<p style="line-height:70%" align="left"><span style="font-size:0.7em">
 &bull;&nbsp; Verify that the Firmware was updated by checking the Date <br>
-&bull;&nbsp; At the shell prompt type "exit" <br>
+&bull;&nbsp; At the shell prompt type "exit" &nbsp;&nbsp; <span style="background-color: #0000;"><font face="Consolas">@size[.7em](&nbsp;&nbsp; @color[yellow](Shell&gt;) exit &nbsp;&nbsp;)</font></span><br>
 &bull;&nbsp; The EDK II front page will show the BIOS ID with Date/time stamp
 </span></p>
 @snapend
@@ -920,13 +920,13 @@ Note:
 ---  
 @title[Summary]
 ##### <p align="center"<span class="gold"   >Summary </span></p><br>
-
- @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp;Pin Visual Studio Command Prompt to Windows <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task Bar  </span><br><br>
- @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/9'>Lab 1:</a> Build a EDK II Platform using Nt32 package </span><br><br>
- @fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/21'>Lab 2:</a> Hardware Setup for Minnowboard Max/Turbot </span><br><br>
- @fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;<a href='https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/30'>Lab 3:</a> Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
+<span style="font-size:0.9em">Lab Setup and Build for Minnowboard Max/Turbot</span> <br>
+<br>
+<!---  Add bullets using https://fontawesome.com/cheatsheet certificate
+-->
+ @fa[certificate gp-bullet-magenta]<span style="font-size:0.9em">&nbsp;&nbsp; Hardware Setup for Minnowboard Max/Turbot </span><br><br>
+ @fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp; Build a EDK II Platform using Minnowboard <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max/Turbot </span> <br><br>
  
-
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Questions]
 <br>
@@ -1077,54 +1077,4 @@ Stop.
 
 <p style="line-height:90%"><span style="font-size:0.9em" ><b>Solution:</b>  Try using a Workspace that is not shared
 </span></p>
-
-
----?image=/assets/images/slides/Slide66.JPG
-@title[Support for VS 2015 for MinnowBoard MAX]
-### <p align="right"><span class="gold" >Support for VS 2015 for<br>MinnowBoard MAX</span></p>
- 
-Note:
-- The Open Source Max release does not support VS 2015
-- To work around do the following:
-	- Copy the file 
-	- “`..Max/edk2/conf/tools_def_VS2015x86.txt`” to 	“`..Max/edk2/conf/tools_def.txt`”
-- Check out the differences:  
-- There is a check for VS140COMNTOOLS and if defined setup for VS 2015
-- See that tools_def.txt  replaces /Wx and /W4 with /w to turn off warnings as errors
-
-
----?image=/assets/images/slides/Slide67.JPG
-@title[Visual Studio Resource Compiler Error – Rc.exe]
-<p align="right"><span class="gold" >Visual Studio Resource Compiler Error – Rc.exe</span></p>
- 
-Note:
-- The Rc.exe was not found and the build fails
-- Find where rc.exe is located and update the  tools_def.txt
-
-- Update `Max/edk2/conf/tools_def.txt`
-<pre>
-- # Microsoft Visual Studio 2013 Professional Edition
-- DEFINE WINSDK8x86_BIN    = C:\Program Files (x86)\Windows Kits\8.1\bin\x64
-
-- # Microsoft Visual Studio 2015 Professional Edition
-- DEFINE WINSDK81x86_BIN   = C:\Program Files (x86)\Windows Kits\8.1\bin\x64
-
-- # Microsoft Visual Studio 2017 Professional Edition
-- DEFINE WINSDK10_BIN      =  Location of Rc.exe
-</pre>
-
-
----?image=/assets/images/slides/Slide66.JPG
-@title[Support for VS 2017 for MinnowBoard MAX]
-### <p align="right"><span class="gold" >Support for VS 2017 for<br>MinnowBoard MAX</span></p>
- 
-Note:
-- The Open Source Max release does not support VS 2017
-- To work around do the following:
-	- Copy the file 
-	- “`..Max/edk2/conf/tools_def_VS2015x86.txt`” to 	“`..Max/edk2/conf/tools_def.txt`”
-- Check out the differences:  
-- See that tools_def.txt  replaces /Wx and /W4 with /w to turn off warnings as errors
--  At MS Command Prompt
-  `>Set  TOOL_CHAIN_TAG=VS2010x86 `
 

@@ -812,8 +812,8 @@ Flash the binary image
 </span></p>
 <p style="line-height:55%" align="left"><span style="font-size:0.65em">2. 
 &nbsp; Copy .cap files to a USB Thumb drive<br>3.
-&nbsp; Copy CapsuleApp.efi to a USB thumb drive<br>4.
-&nbsp; Boot into the UEFI Shell  on Max then  type "FS0:"
+&nbsp; Copy <font face="Consolas">CapsuleApp.efi</font> to a USB thumb drive<br>4.
+&nbsp; Boot into the UEFI Shell  on Max then  type "<font face="Consolas">FS0:</font>"
 </span></p>
 @snapend
 
@@ -830,50 +830,84 @@ Note:
 4. Boot into the UEFI Shell  on Max then  type “FS0:”
 
 
----?image=/assets/images/slides/Slide56_1.JPG
+---?image=/assets/images/slides/Slide31.JPG
 @title[Flash onto the MinnowBoard MAX 02]
-### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Flashing the New Firmware</b>)</span></p>
 
-<p style="line-height:70%"><span style="font-size:0.85em" >5.  &nbsp;&nbsp;Run update `.efi` utility with either BIN file </span> <span style="font-size:0.65em" >&lpar;<i>Note</i> the “TAB” Key <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;will fill out the command line for you &rpar;</span></p>
-
-```
-FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bin
-```
+@snap[north-west span-100 ]
 <br>
-<span style="font-size:0.75em" >Wait for the new firmware update to finish</span>
+<p style="line-height:45%" align="left" ><span style="font-size:0.20em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<p style="line-height:70%"><span style="font-size:0.85em" >6. &nbsp;&nbsp;Reset and boot new firmware</span></p>
-
- 
-Note:
-5. Run update .efi utility with either BIN file  (Note the “TAB” Key will fill out the command line for you 
-```
-FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bin
-```
-
-6. Reset and boot new firmware
-
-
----?image=/assets/images/slides/Slide57_1.JPG
-@title[Verify after Firmware Update]
-### <p align="right"><span class="gold" >Verify after Firmware Update</span></p>
-@snap[north-west span-100  ]
-<br>
-<br>
-<span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10107;</font>)&nbsp;&nbsp;Reboot and Verify</span>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:20% "><span style="font-size:0.9em;" ><br>&nbsp;</span></p>)
 @snapend
 
+@snap[north-west span-100 ]
 <br>
-- <span style="font-size:0.85em" >Verify that the Firmware was updated by checking the Date</span>
-- <span style="font-size:0.85em" >At the shell prompt type “exit”</span>
-- <span style="font-size:0.85em" >The EDK II front page will show the BIOS ID with Date/time stamp</span>
+<p style="line-height:20%" align="left"><span style="font-size:0.8em">
+<br><br><br>@size[1.125em](<font color="yellow"> &#10107;</font>)
+</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.75em">
+Run CapsuleApp.efi utility with MinnowMax. . . cap file<br>
+@size[.7em](&lpar;Note the "TAB" Key will fill out the command line for you &rpar;)
+</span></p>
+<p style="line-height:40%" align="left"><span style="font-size:0.5em; font-family:Consolas;" >
+@color[yellow](FS:\&gt;)CapsuleApp.efi MinnowMax.0.0.0.12.cap 
+</span></p>
+<p style="line-height:55%" align="left"><span style="font-size:0.65em">
+System will start the Capsule update process<br>
+There will be 2 reboots
+</span></p>
+@snapend
+
+
+
+
+Note:
+Run CapsuleApp.efi utility with MinnowMax. . . cap file
+(Note the “TAB” Key will fill out the command line for you )
+
+FS0:\> CapsuleApp.efi MinnowMax.0.0.0.12.cap 
+ 
+System will start the Capsule update process
+There will be 2 reboots
+
+
+---?image=/assets/images/slides/Slide32.JPG
+@title[Capsule Update with External Monitor]
+<p align="right"><span class="gold" >@size[1.1em](<b>Capsule Update with External Monitor</b>)</span></p>
+
+<p style="line-height:70%" align="left"><span style="font-size:0.75em">
+Logo with a progress bar will display update process progress
+</span></p>
+
+
+Note:
+
+If an external monitor is connected to the system under test 
+the monitor will show a progress bar for the capsule update
+
+---?image=/assets/images/slides/Slide33.JPG
+@title[Verify after Firmware Update]
+<p align="right"><span class="gold" >@size[1.1em](<b>Verify After Firmware Update</b>)</span></p>
+
+
+@snap[north-west span-100 ]
+<br>
+<p style="line-height:20%" align="left"><span style="font-size:0.8em">
+<br><br><br>@size[1.125em](<font color="yellow"> &#10108;</font>)
+</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.75em">
+Reboot and Verify
+</span></p>
+
+<p style="line-height:60%" align="left"><span style="font-size:0.7em">
+&bull;&nbsp; Verify that the Firmware was updated by checking the Date <br>
+&bull;&nbsp; At the shell prompt type "exit" <br>
+&bull;&nbsp; The EDK II front page will show the BIOS ID with Date/time stamp
+</span></p>
+@snapend
+
 
 
 Note:

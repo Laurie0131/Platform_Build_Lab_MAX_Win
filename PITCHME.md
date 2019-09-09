@@ -487,7 +487,9 @@ Note:
 <br>
 <br>
 <br>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br>&nbsp;</span></p>)
+<br>
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br>&nbsp;</span></p>)
 
 @snapend
@@ -497,21 +499,22 @@ Note:
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">
 <br>@size[1.125em](<font color="yellow"> &#10103;</font>)<br>
-&nbsp;&nbsp;Run Setenv.bat or type the following: (assumes Python3.7.2) <br>
-<font face="Consolas">&nbsp;&nbsp;
+&nbsp;&nbsp;Run Setenv.bat or type the following: (assumes Python3.7.2) 
+</span></p>
+<p style="line-height:45%" align="left" ><span style="font-size:0.57em; font-family:Consolas;" >&nbsp;&nbsp;
 &gt; Set WORKSPACE=%CD%&nbsp;<br>&nbsp;&nbsp;
 $&gt; set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-platforms\Silicon\Intel;%WORKSPACE%\edk2-platforms\Platform\Intel;<br>&nbsp;&nbsp;%WORKSPACE%\edk2-non-osi\Silicon\Intel<br>&nbsp;&nbsp;
 <br>&nbsp;&nbsp;
 $&gt; set EDK_TOOLS_PATH=%WORKSPACE%\edk2\BaseTools<br>&nbsp;&nbsp;
 $&gt; path=%path%;%WORKSPACE%\openssl;%USERPROFILE%\AppData\Local\Programs\Python\Python37-32<br>&nbsp;&nbsp;
 $&gt; set NASM_PREFIX=%WORKSPACE%\nasm\
-</font> 
-<br>
-&nbsp;&nbsp;Check if Python okay<br>
-<font face="Consolas">&nbsp;&nbsp;
+</span></p> 
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+&nbsp;&nbsp;Check if Python okay
+</span></p>
+<p style="line-height:45%" align="left" ><span style="font-size:0.57em; font-family:Consolas;" >&nbsp;&nbsp;
 &gt; python --version<br>&nbsp;&nbsp;
 Python 3.7.2
-</font> 
 </span></p>
 
 @snapend
@@ -520,7 +523,6 @@ Python 3.7.2
 <p style="line-height:30%" align="left" ><span style="font-size:0.55em;" >
 &nbsp;Note: Download Nasm compiler and Openssl described in each Readme.txt files
 </span></p>
-<br>
 @snapend
 
 Note:

@@ -281,14 +281,14 @@ Note:
 <br>
 <p align="left"><span class="gold" ><b>Where to get Open Source<BR> MinnowBoard Max</b></span></p>
 
-@snap[north-west span-65  ]
+@snap[north-west span-60  ]
 <br>
 <br>
 <br>
 <br>
 <br>
 <ul style="list-style-type:disc; line-height:0.85;">
- <li><span style="font-size:0.8em;" > Open Source <a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax">Max Development Wiki</a> </span> </li>
+ <li><span style="font-size:0.8em;" > Open Source <a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax">Max Development Wiki</a> </span> <br></li>
  <li><span style="font-size:0.8em;" > How to Download  & Build: <a href="https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Vlv2TbltDevicePkg/Readme.md">Readme.md</a> </span> </li>
 
 </ul>
@@ -421,13 +421,13 @@ Note:
 <p style="line-height:65%" align="left" ><span style="font-size:0.6em; font-family:Consolas;" >
 <br>
 @color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;)
-<span style="background-color: #002060">&nbsp;&nbsp;<font face="Arial">Invoke the Build from here </font> &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="background-color: #64205d">&nbsp;&nbsp;<font face="Arial">Invoke the Build from here </font> &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>&nbsp;&nbsp;
 <br>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@color[yellow](&#10094;&horbar;&horbar;&horbar;&horbar;)
-<span style="background-color: #002060">&nbsp;&nbsp;<font face="Arial">Platform DSC here </font> &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="background-color: #64205d">&nbsp;&nbsp;<font face="Arial">Platform DSC here </font> &nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;
 </span></p>
 
 @snapend
@@ -483,17 +483,45 @@ Note:
 @title[Setup the Build Environment]
 <p align="right"><span class="gold" >@size[1.1em](<b>Setup the Build Environment</b>)</span></p>
 
+@snap[north-west span-100 ]
+<br>
+<br>
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br><br><br><br><br><br><br>&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:60% "><span style="font-size:0.9em;" ><br><br>&nbsp;</span></p>)
+
+@snapend
 
 
-
-
+@snap[north-west span-100 ]
+<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">
 <br>@size[1.125em](<font color="yellow"> &#10103;</font>)<br>
 &nbsp;&nbsp;Run Setenv.bat or type the following: (assumes Python3.7.2) <br>
-<span style="background-color: #000000"><font face="Consolas">&nbsp;&gt; Set WORKSPACE=%CD%&nbsp;&nbsp;&nbsp;</font> <span>
+<font face="Consolas">&nbsp;&nbsp;
+&gt; Set WORKSPACE=%CD%&nbsp;<br>&nbsp;&nbsp;
+$&gt; set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-platforms\Silicon\Intel;%WORKSPACE%\edk2-platforms\Platform\Intel;<br>&nbsp;&nbsp;%WORKSPACE%\edk2-non-osi\Silicon\Intel<br>&nbsp;&nbsp;
+<br>&nbsp;&nbsp;
+$&gt; set EDK_TOOLS_PATH=%WORKSPACE%\edk2\BaseTools<br>&nbsp;&nbsp;
+$&gt; path=%path%;%WORKSPACE%\openssl;%USERPROFILE%\AppData\Local\Programs\Python\Python37-32<br>&nbsp;&nbsp;
+$&gt; set NASM_PREFIX=%WORKSPACE%\nasm\
+</font> 
+<br>
+&nbsp;&nbsp;Check if Python okay<br>
+<font face="Consolas">&nbsp;&nbsp;
+&gt; python --version<br>&nbsp;&nbsp;
+Python 3.7.2
+</font> 
 </span></p>
 
+@snapend
 
+@snap[south span-100 ]
+<p style="line-height:30%" align="left" ><span style="font-size:0.55em;" >
+&nbsp;Note: Download Nasm compiler and Openssl described in each Readme.txt files
+</span></p>
+<br>
+@snapend
 
 Note:
 

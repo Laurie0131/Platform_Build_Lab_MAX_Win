@@ -556,11 +556,11 @@ Note:
 <p align="right"><span class="gold" >@size[1.1em](<b>Platform Build Scripts</b>)</span></p>
 
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Pre & Post Build Scripts<br>&nbsp; </span></p>)
-<p style="line-height:80%"><span style="font-size:0.8em">Many Platform have a bash or bat script file to pre or post process the EDK II build process</span></p>
+<p style="line-height:80%"><span style="font-size:0.8em">Many Platform have a bash, bat  or Python script file to pre or post process the EDK II build process</span></p>
 
 <p style="line-height:60%"><span style="font-size:0.6em">@size[1.1em](For MinnowBoard MAX :)<br> 
 @color[cyan](Pre build proecssing:)<br>
-Python script <font face="Consolas">Vlv2TbltDevicePkg/@color[yellow](PreBuild.py) </font>– determines date and creates BiosId.bin in build output directory<br>
+Python script <font face="Consolas">Vlv2TbltDevicePkg/@color[yellow](PreBuild.py) </font>– determines date and creates <font face="Consolas">BiosId.bin</font> in build output directory<br>
 <br>
 @color[cyan](Post build processing:) <br>
 Python script <font face="Consolas">Vlv2TbltDevicePkg/Feature/Capsule/GenerateCapsule/ @color[yellow](GenCapsuleAll.py)</font> – creates .CAP files for updating<br>
@@ -572,27 +572,43 @@ For the platform edk II builds usually a script is called that will do pre and p
 There is also this capability that is part of the .dsc but many developers have not taken advantage of this feature
 
 
----?image=/assets/images/slides/Slide42.JPG
+---?image=/assets/images/slides/Slide24.JPG
 @title[Build Process for DEBUG]
-### <p align="right"><span class="gold" >Build Process for DEBUG BIOS </span></p>
-<p style="line-height:80%" align="left"><span style="font-size:0.8em">
-From the VS command Prompt ... Enter:<br>
-@size[1.25em](<font color="yellow"> &#10103;</font>)&nbsp;&nbsp;</span>
-<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
-&nbsp;cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br>
-<span style="font-size:0.8em">
-@size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
-<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
-&nbsp;Build_IFWI.bat /l MNW2 Debug&nbsp;&nbsp;</span></font></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Build Process for DEBUG Target</b>)</span></p>
 
+@snap[north-west span-100 ]
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40% "><span style="font-size:0.9em;" ><br><br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100 ]
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+<br>@size[1.125em](<font color="yellow"> &#10105;</font>)<br><br>
+&nbsp;&nbsp;
+From the edk2/ directory invoke the “Build” command to build MinnowBoard Max <br>Note: Use the Your VS TAG below with "-t" option
+</span></p>
+<p style="line-height:35%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;
+$&gt; build -a IA32 -a X64 -t @color[yellow](VS2015x86) -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y Vlv.report -v
+</span></p>
+@snapend
+
+
+@snap[south-west span-100 ]
+<p style="line-height:30%" align="left" ><span style="font-size:0.55em;" >
+Press Enter to <br>
+Continue the build
+</span></p>
+@snapend
 
 Note:
 
 - From the VS Command Prompt … ENTER:
 
 <pre>
-$ cd C:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg 
-$ Build_IFWI.bat /l MNW2 Debug
+$ cd C:\FW\MaxWS\edk2
+$ build -a IA32 -a X64 -t VS2015x86 -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y Vlv.report -v
 </pre>
 
 ---

@@ -774,7 +774,7 @@ Note:
 ---?image=/assets/images/slides/Slide29.JPG
 @title[Build Process Completed]
 <p align="right"><span class="gold" >@size[1.1em](<b>Build Process Completed</b>)</span></p>
-<span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10105;</font>)&nbsp;&nbsp;Locate the build <font face="Consolas">.Cap</font> images</span>
+<span style="font-size:0.8em" >@size[1.25em](<font color="yellow"> &#10106;</font>)&nbsp;&nbsp;Locate the build <font face="Consolas">.Cap</font> images</span>
 
 @snap[south-west span-100  ]
 <p style="line-height:70%" align="left"><span style="font-size:0.7em" >
@@ -797,21 +797,20 @@ for the the MinnnowBoard Capsule files are created to use withthe CapsuleApp.efi
 
 
 @snap[north-west span-100 ]
+<br>
 <p style="line-height:20%" align="left"><span style="font-size:0.8em">
-<br><br>@size[1.125em](<font color="yellow"> &#10107;</font>)
+<br><br><br>@size[1.125em](<font color="yellow"> &#10107;</font>)
 </span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.75em">
 Flash the binary image
-<br>1.&nbsp;
-Access Max .CAP files from build folder
 </span></p>
-<p style="line-height:30%" align="left"><span style="font-size:0.65em">1.&nbsp;Access Max .CAP files from build folder</span><br>
-<span style="font-size:0.47em; font-family:Consolas;" >
-&bull; . . ./Build/Vlv2TbltDevicePkgX64/Capsules/TestCert_X64_DEBUG_VS2015x86<br>
-&bull; *.cap
-&bull; RELEASE  . . ./Capsules/TestCert_X64_DEBUG_VS2015x86
+<p style="line-height:40%" align="left"><span style="font-size:0.65em">1.&nbsp; Access Max .CAP files from build folder</span><br>
+<span style="font-size:0.5em; font-family:Consolas;" >
+&nbsp;&nbsp;&bull; . . ./Build/Vlv2TbltDevicePkgX64/Capsules/TestCert_X64_DEBUG_VS2015x86<br>
+&nbsp;&nbsp;&bull; *.cap <br>
+&nbsp;&nbsp;&bull; RELEASE  . . ./Capsules/TestCert_X64_RELEASE_VS2015x86
 </span></p>
-<p style="line-height:50%" align="left"><span style="font-size:0.65em">2. 
+<p style="line-height:55%" align="left"><span style="font-size:0.65em">2. 
 &nbsp; Copy .cap files to a USB Thumb drive<br>3.
 &nbsp; Copy CapsuleApp.efi to a USB thumb drive<br>4.
 &nbsp; Boot into the UEFI Shell  on Max then  type "FS0:"

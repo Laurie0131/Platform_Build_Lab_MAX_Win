@@ -526,7 +526,31 @@ Python 3.7.2
 
 Note:
 
+---?image=/assets/images/slides/Slide22.JPG
+@title[Invoke Edksetup]
+<p align="right"><span class="gold" >@size[1.1em](<b>Invoke Edksetup</b>)</span></p>
 
+@snap[north-west span-35 ]
+<br>
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
+<br>
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40% "><span style="font-size:0.9em;" ><br><br>&nbsp;</span></p>)
+@snapend
+
+@snap[north-west span-100 ]
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+<br>@size[1.125em](<font color="yellow"> &#10104;</font>)<br><br>
+&nbsp;&nbsp;Invoke<font face="Consolas"> Edksetup</font> form the <font face="Consolas">edk2</font> directory and build <font face="Consolas">BaseTools</font>
+</span></p>
+<p style="line-height:40%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;
+$&gt; cd edk2<br>&nbsp;&nbsp;
+$&gt; edksetup.bat Rebuild
+</span></p>
+@snapend
+
+
+Note:
 
 ---
 @title[Platform Build Scripts]

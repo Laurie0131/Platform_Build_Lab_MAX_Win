@@ -903,7 +903,8 @@ Reboot and Verify
 
 <p style="line-height:70%" align="left"><span style="font-size:0.7em">
 &bull;&nbsp; Verify that the Firmware was updated by checking the Date <br>
-&bull;&nbsp; At the shell prompt type "exit" &nbsp;&nbsp; <span style="background-color: #0000;"><font face="Consolas">@size[.7em](&nbsp;&nbsp; @color[yellow](Shell&gt;) exit &nbsp;&nbsp;)</font></span><br>
+&bull;&nbsp; At the shell prompt type "exit" &nbsp;&nbsp; 
+<span style="background-color: #000000"><font face="Consolas">@size[.7em](&nbsp;&nbsp; @color[yellow](Shell&gt;) exit &nbsp;&nbsp;)</font></span><br>
 &bull;&nbsp; The EDK II front page will show the BIOS ID with Date/time stamp
 </span></p>
 @snapend

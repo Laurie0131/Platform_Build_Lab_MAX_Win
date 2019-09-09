@@ -556,7 +556,7 @@ Note:
 <p align="right"><span class="gold" >@size[1.1em](<b>Platform Build Scripts</b>)</span></p>
 
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Pre & Post Build Scripts<br>&nbsp; </span></p>)
-<p style="line-height:80%"><span style="font-size:0.8em">Many Platform have a bash, bat  or Python script file to pre or post process the EDK II build process</span></p>
+<p style="line-height:80%"><span style="font-size:0.8em">Many Platforms have a bash, bat  or Python script file to pre or post process the EDK II build process</span></p>
 
 <p style="line-height:60%"><span style="font-size:0.6em">@size[1.1em](For MinnowBoard MAX :)<br> 
 @color[cyan](Pre build proecssing:)<br>
@@ -580,14 +580,15 @@ There is also this capability that is part of the .dsc but many developers have 
 <br>
 <p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
 <br>
-@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40% "><span style="font-size:0.9em;" ><br><br>&nbsp;</span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40% "><span style="font-size:0.9em;" ><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north-west span-100 ]
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">
-<br>@size[1.125em](<font color="yellow"> &#10105;</font>)<br><br>
-&nbsp;&nbsp;
-From the edk2/ directory invoke the “Build” command to build MinnowBoard Max <br>Note: Use the Your VS TAG below with "-t" option
+<br>@size[1.125em](<font color="yellow"> &#10105;</font>)
+</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.75em">
+From the edk2 directory invoke the "build" command to build MinnowBoard Max <br>@size[.8em](Note: Use the Your VS TAG below with "-t" option)
 </span></p>
 <p style="line-height:35%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;
 $&gt; build -a IA32 -a X64 -t @color[yellow](VS2015x86) -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y Vlv.report -v
@@ -596,7 +597,7 @@ $&gt; build -a IA32 -a X64 -t @color[yellow](VS2015x86) -p Vlv2TbltDevicePkg\Pla
 
 
 @snap[south-west span-100 ]
-<p style="line-height:30%" align="left" ><span style="font-size:0.55em;" >
+<p style="line-height:37%" align="left" ><span style="font-size:0.55em;" >
 Press Enter to <br>
 Continue the build
 </span></p>

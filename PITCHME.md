@@ -628,18 +628,13 @@ $ build -a IA32 -a X64 -t VS2015x86 -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.60em; font-family:Consolas; " >
-<font color="#75deFF">-D SYMBOLIC_DEBUG=TRUE&nbsp;&nbsp;  -D LOGGING=TRUE<br>
- . . . -D <i> Option &lpar;n&rpar;</i> </font>
+<font color="#75deFF">
+-a IA32 -a X64 -t VS2015x86 <br>-p Vlv2TbltDevicePkg\PlatformPkgX64.dsc -y Vlv.report -v
+</font>
 </span></p>
 @snapend
 
 
-@snap[north-east span-30  fragment]
-<br>
-<br>
-<p style="line-height:40%" align="left"><span style="font-size:0.8em"><br></span></p>
-@box[bg-white text-black rounded my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="blue"><b>&nbsp;&nbsp;MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;</b></span></p>)
-@snapend
 
 
 @snap[north-west span-100 fragment ]
@@ -670,9 +665,9 @@ $ build -a IA32 -a X64 -t VS2015x86 -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y
 		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Platform DSC file</b></span></p></td>
 	</tr>
 	<tr class="fragment">
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:040%"><span style="font-size:0.460em; font-family:Consolas; " ><b>MAX&lowbar;CONCURRENT&lowbar; THREAD_NUMBER</b></span></p></td>
-		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](1)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025" width="35%"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Thread Count</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:040%"><span style="font-size:0.460em; font-family:Consolas; " ><b>Report File Created</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](Vlv.report)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025" width="35%"><p style="line-height:010%"><span style="font-size:0.6em" ><b>PCDs, Libs, etc. . .</b></span></p></td>
 	</tr>
 </table>
 

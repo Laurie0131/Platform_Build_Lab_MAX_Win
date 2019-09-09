@@ -804,7 +804,7 @@ for the the MinnnowBoard Capsule files are created to use withthe CapsuleApp.efi
 <p style="line-height:70%" align="left"><span style="font-size:0.75em">
 Flash the binary image
 </span></p>
-<p style="line-height:40%" align="left"><span style="font-size:0.65em">1.&nbsp; Access Max .CAP files from build folder</span><br>
+<p style="line-height:40%" align="left"><span style="font-size:0.65em">1.&nbsp; Access Max .CAP files from build folder</span><br><br>
 <span style="font-size:0.5em; font-family:Consolas;" >
 &nbsp;&nbsp;&bull; . . ./Build/Vlv2TbltDevicePkgX64/Capsules/TestCert_X64_DEBUG_VS2015x86<br>
 &nbsp;&nbsp;&bull; *.cap <br>
@@ -1078,4 +1078,7 @@ Stop.
 
 <p style="line-height:90%"><span style="font-size:0.9em" ><b>Solution:</b>  Try using a Workspace that is not shared
 </span></p>
+
+Note:
+
 

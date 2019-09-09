@@ -681,11 +681,11 @@ $ build -a IA32 -a X64 -t VS2015x86 -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Parameters<br>&nbsp; </span></p>)
 <p style="line-height:80%"><span style="font-size:0.8em">Many Platform Parameters are defined in  a top .DSC file that controls  PCD and build switches</span></p>
 
-<p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : `PlatformPkgConfig.dsc` <br>Example:</span></p>
+<p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : <font face="Consolas">PlatformPkgConfig.dsc</font> <br>Example:</span></p>
 
 ```xml
  #
- # TRUE is ENABLE. FASLE is DISABLE.
+ # TRUE is ENABLE. FALSE is DISABLE.
  #
   //  . . .
  DEFINE SECURE_BOOT_ENABLE = TRUE
@@ -703,32 +703,46 @@ Note:
 many will have "ifdef" statements in the major .dsc file in order to enable a feature or not
 
 
----?image=/assets/images/slides/Slide51.JPG
+---?image=/assets/images/slides/Slide27.JPG
 @title[Build Process for Release]
-### <p align="right"><span class="gold" >Build Process for Release</span></p>
-<p style="line-height:80%" align="left"><span style="font-size:0.8em">
-From the VS command Prompt ... Enter:<br>
-</span><br>
-<span style="font-size:0.8em">
-@size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
-<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
-&nbsp;Build_IFWI.bat /l MNW2 Release&nbsp;&nbsp;</span></font></p>
+<p align="right"><span class="gold" >@size[1.1em](<b>Build Process for RELEASE Target</b>)</span></p>
 
-
-@snap[north-east span-30  fragment]
+@snap[north-west span-100 ]
+<br>
+<p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
 <br>
 <br>
-<p style="line-height:40%" align="left"><span style="font-size:0.8em"><br></span></p>
-@box[bg-white text-black rounded my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="blue"><b>&nbsp;&nbsp;Note MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;<font color="blue">Set to FALSE</font><br>&nbsp;&nbsp;</b></span></p>)
+@box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40% "><span style="font-size:0.9em;" ><br>&nbsp;</span></p>)
 @snapend
+
+@snap[north-west span-100 ]
+<p style="line-height:20%" align="left"><span style="font-size:0.8em">
+<br><br><br><br>@size[1.125em](<font color="yellow"> &#10105;</font>)
+</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.75em">
+From the edk2 directory invoke the "build" command to build MinnowBoard Max <br>@size[.8em](Note: Use the Your VS TAG below with "-t" option)
+</span></p>
+<p style="line-height:35%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;
+$&gt; build -a IA32 -a X64 -t @color[yellow](VS2015x86) -b @color[yellow](RELEASE) -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc -v
+</span></p>
+@snapend
+
+
+@snap[south-west span-100 ]
+<p style="line-height:37%" align="left" ><span style="font-size:0.55em;" >
+Press Enter to <br>
+Continue the build
+</span></p>
+@snapend
+
 
 
 
 Note:
 From VS Prompt enter:
 ```
-$ cd Vlv2TbltDevicePkg 
-$ Build_IFWI.bat /l MNW2 Release
+$ cd MaxWS/edk2
+$ build -a IA32 -a X64 -t VS2015x86 -b RELEASE -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc -v
 ```
 
 ---

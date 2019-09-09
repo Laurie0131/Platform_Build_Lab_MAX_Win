@@ -586,7 +586,7 @@ There is also this capability that is part of the .dsc but many developers have 
 
 @snap[north-west span-100 ]
 <p style="line-height:20%" align="left"><span style="font-size:0.8em">
-<br><br><br>@size[1.125em](<font color="yellow"> &#10105;</font>)
+<br><br><br><br>@size[1.125em](<font color="yellow"> &#10105;</font>)
 </span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.75em">
 From the edk2 directory invoke the "build" command to build MinnowBoard Max <br>@size[.8em](Note: Use the Your VS TAG below with "-t" option)

@@ -1080,5 +1080,3 @@ Stop.
 </span></p>
 
 Note:
-
-

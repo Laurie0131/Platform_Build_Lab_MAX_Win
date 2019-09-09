@@ -89,7 +89,7 @@ Note:
 ---?image=/assets/images/slides/Slide6.JPG
 @title[Instructions for Lab Materials]
 ### <p align="right"><span class="gold" >Instructions for Lab Materials</span></p>
-<span style="font-size:0.9em">Directory `C:\PlatformBuildLab2_FW\FW\PlatformBuildLab` </span>
+<span style="font-size:0.9em">Directory <font face="Consolas">C:\PlatformBuildLab2_FW\FW\PlatformBuildLab</font> </span>
 <div class="left">
  <ul style="list-style-type:none">
    <li><span style="font-size:0.8em">FTDI Driver for Serial UART Cable (COM Port)  <a href="http://www.ftdichip.com/FTDrivers.htm "> ftdichip.com/FTDrivers.htm </a></span> </li>
@@ -302,7 +302,7 @@ Note:
 ### <p align="right"><span class="gold" >Download MAX Lab Source</span></p>
 <span style="font-size:0.9em" >Download the PlatformBuildLab2_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/PlatformBuildLab2_FW/archive/master.zip">github.com PlatformBuildLab_FW.zip</a></span><br>
 <br>
-<span style="font-size:0.9em" >OR<br>Use `git clone` to download the PlatformBuildLab_FW<span>
+<span style="font-size:0.9em" >OR<br>Use <font face="Consolas">git clone</font> to download the PlatformBuildLab_FW<span>
 ```
 $ git clone https://github.com/tianocore-training/PlatformBuildLab2_FW.git
 ```

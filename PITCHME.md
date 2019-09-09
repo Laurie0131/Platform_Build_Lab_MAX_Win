@@ -580,11 +580,12 @@ There is also this capability that is part of the .dsc but many developers have 
 <br>
 <p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
 <br>
+<br>
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40% "><span style="font-size:0.9em;" ><br>&nbsp;</span></p>)
 @snapend
 
 @snap[north-west span-100 ]
-<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+<p style="line-height:20%" align="left"><span style="font-size:0.8em">
 <br>@size[1.125em](<font color="yellow"> &#10105;</font>)
 </span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.75em">

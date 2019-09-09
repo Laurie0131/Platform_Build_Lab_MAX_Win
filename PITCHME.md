@@ -709,7 +709,7 @@ many will have "ifdef" statements in the major .dsc file in order to enable a fe
 
 @snap[north-west span-100 ]
 <br>
-<p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br><br></span></p>
+<p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;<br></span></p>
 <br>
 <br>
 @box[bg-black text-white rounded my-box-pad2  ](<p style="line-height:40% "><span style="font-size:0.9em;" ><br>&nbsp;</span></p>)
@@ -730,8 +730,9 @@ $&gt; build -a IA32 -a X64 -t @color[yellow](VS2015x86) -b @color[yellow](RELEAS
 
 @snap[south-west span-100 ]
 <p style="line-height:37%" align="left" ><span style="font-size:0.55em;" >
-Press Enter to <br>
-Continue the build
+Press Enter <br>
+to Continue<br> 
+the build
 </span></p>
 @snapend
 

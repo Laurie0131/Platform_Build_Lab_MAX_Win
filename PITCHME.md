@@ -497,10 +497,10 @@ Note:
 
 @snap[north-west span-100 ]
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">
-<br>@size[1.125em](<font color="yellow"> &#10103;</font>)<br>
+<br>@size[1.125em](<font color="yellow"> &#10103;</font>)<br><br>
 &nbsp;&nbsp;Run Setenv.bat or type the following: (assumes Python3.7.2) 
 </span></p>
-<p style="line-height:40%" align="left" ><span style="font-size:0.45em; font-family:Consolas;" >&nbsp;&nbsp;
+<p style="line-height:45%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;
 $&gt; Set WORKSPACE=%CD%&nbsp;<br>&nbsp;&nbsp;
 $&gt; set PACKAGES_PATH=%WORKSPACE%\edk2;%WORKSPACE%\edk2-platforms\Silicon\Intel;%WORKSPACE%\edk2-platforms\Platform\Intel;<br>&nbsp;&nbsp;%WORKSPACE%\edk2-non-osi\Silicon\Intel<br>&nbsp;&nbsp;
 <br>&nbsp;&nbsp;
@@ -511,7 +511,7 @@ $&gt; set NASM_PREFIX=%WORKSPACE%\nasm\
 <p style="line-height:80%" align="left"><span style="font-size:0.8em">
 &nbsp;&nbsp;Check if Python okay
 </span></p>
-<p style="line-height:40%" align="left" ><span style="font-size:0.45em; font-family:Consolas;" >&nbsp;&nbsp;
+<p style="line-height:35%" align="left" ><span style="font-size:0.40em; font-family:Consolas;" >&nbsp;&nbsp;
 $&gt; python --version<br>&nbsp;&nbsp;
 Python 3.7.2
 </span></p>

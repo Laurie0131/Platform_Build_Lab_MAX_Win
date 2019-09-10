@@ -1,5 +1,5 @@
 ---?image=assets/images/gitpitch-audience.jpg
-@title[Platform Build Win Lab]
+@title[Platform Build MAX Lab WIN]
 <br><br>
 <span style="font-size:0.75em" >This slide deck has moved to:  https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/</span>
 <br><br><br>
@@ -302,7 +302,7 @@ Note:
 ### <p align="right"><span class="gold" >Download MAX Lab Source</span></p>
 <span style="font-size:0.9em" >Download the PlatformBuildLab2_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/PlatformBuildLab2_FW/archive/master.zip">github.com PlatformBuildLab_FW.zip</a></span><br>
 <br>
-<span style="font-size:0.9em" >OR<br>Use <font face="Consolas">git clone</font> to download the PlatformBuildLab_FW<span>
+<span style="font-size:0.9em" >OR<br>Use <font face="Consolas">git clone</font> to download the PlatformBuildLab2_FW<span>
 ```
 $ git clone https://github.com/tianocore-training/PlatformBuildLab2_FW.git
 ```
@@ -404,7 +404,7 @@ Note:
 	edk2-platforms/<br>&nbsp;&nbsp;&nbsp;&nbsp;
        Platform/Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		   Vlv2TbltDevicePkg /<br>&nbsp;&nbsp;&nbsp;&nbsp;
- 	   silicon/Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 	   Silicon/Intel/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           Vlv2DeviceRefCodePkg/<br>&nbsp;&nbsp;
 	edk2-non-osi/<br>&nbsp;&nbsp;
 	nasm/ &ast;&ast;<br>&nbsp;&nbsp;

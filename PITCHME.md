@@ -1,7 +1,8 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Platform Build MAX Lab WIN]
 <br><br>
-<span style="font-size:0.75em" >This slide deck has moved to:  https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/</span>
+<span style="font-size:0.75em" >This slide deck has moved to: https://gitpitch.com/tianocore-training/Platform_Build_Lab_MAX_Win/master#/
+</span>
 <br><br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
@@ -647,7 +648,7 @@ $ build -a IA32 -a X64 -t VS2015x86 -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET</b></span></p></td>
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](DEBUG)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Build Mode</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Build Mode </b>(default)</span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET_ARCH</b></span></p></td>
@@ -662,7 +663,7 @@ $ build -a IA32 -a X64 -t VS2015x86 -p Vlv2TbltDevicePkg\PlatformPkgX64.dsc –y
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>ACTIVE_PLATFORM</b></span></p></td>
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:040%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[yellow](Vlv2TbltDevicePkg /PlatformPkgX64)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Platform DSC file</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>MAX Platform DSC file</b></span></p></td>
 	</tr>
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:040%"><span style="font-size:0.460em; font-family:Consolas; " ><b>Report File Created</b></span></p></td>
